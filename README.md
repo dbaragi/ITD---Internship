@@ -8,7 +8,7 @@ This repository contains the work completed during my internship as a Data Analy
 
 The objective of this project was to utilize an AI model to detect pavement segregation within images captured from cameras. The project involved analyzing over 200 images and implementing image segmentation techniques to accurately classify pavement segregation.
 
-## Tools and Techniques Used
+## YOLOv-8
 
 - **Image Segmentation:** Initially, YOLOv8 was employed for image segmentation to identify pavement segregation within the images.
 - **YOLOv8 Implementation:** The YOLOv8 implementation involved training the model on a labeled dataset and fine-tuning it to suit the pavement segregation task.
