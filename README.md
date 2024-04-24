@@ -23,7 +23,7 @@ Due to the limitations encountered with YOLOv8, a shift was made to another mode
 The dataset used for YOLOv8 training was prepared in the following format:
 
 - **Image Format:** Images in standard image formats (e.g., JPEG, PNG) were used for training.
-- **Label Format:** Labels were generated using annotations made in COCO format. These labels were then converted to YOLO format, which consists of text files (.txt) containing bounding box coordinates and class labels for each image.
+- **Label Format:** Labels were generated using annotations made in CVAT. These labels were then converted to YOLO format, which consists of text files (.txt) containing bounding box coordinates and class labels for each image.
 
 ## Dataset Availability
 
