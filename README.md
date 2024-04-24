@@ -8,7 +8,7 @@ This repository contains the work completed during my internship as a Data Analy
 
 The objective of this project was to utilize an AI model to detect pavement segregation within images captured from cameras. The project involved analyzing over 200 images and implementing image segmentation techniques to accurately classify pavement segregation.
 
-## YOLOv-8
+## Tools and Techniques Used
 
 - **Image Segmentation:** Initially, YOLOv8 was employed for image segmentation to identify pavement segregation within the images.
 - **YOLOv8 Implementation:** The YOLOv8 implementation involved training the model on a labeled dataset and fine-tuning it to suit the pavement segregation task.
@@ -18,21 +18,18 @@ The objective of this project was to utilize an AI model to detect pavement segr
 
 Due to the limitations encountered with YOLOv8, a shift was made to another model, U-Net. U-Net is a convolutional neural network (CNN) architecture commonly used for image segmentation tasks. Its ability to accurately segment images, especially in scenarios with less data (as in our case) or complex backgrounds, made it a suitable choice for our project.
 
-## Work Done with YOLOv8
+## Data Format for YOLOv8
 
-For the YOLOv8 implementation, the following steps were undertaken:
+The dataset used for YOLOv8 training was prepared in the following format:
 
-- **Installation of Ultralytics:** The Ultralytics library was installed to facilitate the implementation of YOLOv8.
-- **GPU Configuration:** GPU support was configured on the local machine to accelerate training and inference processes.
-- **Choice of Editor:** Spyder was utilized as the primary code editor for developing and testing YOLOv8 implementations.
-- **Usage of Google Colab:** Google Colab, with its free GPU support, was also utilized for training and experimentation due to its faster processing capabilities.
-- **Model Selection:** The pre-trained YOLOv8 model "yolov8n-seg.pt" was chosen for its suitability in pavement segregation tasks.
-- **Training Process:** Training was conducted with varying epochs and image sizes. Starting with 3 epochs, the process was gradually increased to 5 and then 10 epochs to observe improvements in results.
-- **Observations:** While some visible results were observed with increased epochs, it became apparent that the accuracy of the model was hindered by the limited dataset size. YOLOv8 has specific requirements regarding the size of the dataset for effective training.
+- **Image Format:** Images in standard image formats (e.g., JPEG, PNG) were used for training.
+- **Label Format:** Labels were generated using annotations made in COCO format. These labels were then converted to YOLO format, which consists of text files (.txt) containing bounding box coordinates and class labels for each image.
 
-## Data Link for YOLOv8 Segmentation
+## Dataset Availability
 
-[Data Link](https://drive.google.com/drive/folders/12HBTPv8cKrgFiW_tKMJUGVo7QHuqf7V_?usp=sharing)
+The dataset used for YOLOv8 training is available for access via the following link:
+
+[Dataset Link](https://drive.google.com/drive/folders/12HBTPv8cKrgFiW_tKMJUGVo7QHuqf7V_?usp=sharing)
 
 ## Conclusion
 
