@@ -6,7 +6,7 @@ This repository contains the work completed during my internship as a Data Analy
 
 ## Project Description
 
-TThe objective of this project was to utilize an AI model to detect pavement segregation within images captured from cameras. The project involved analyzing over 200 images and implementing image segmentation techniques to accurately classify pavement segregation.
+The objective of this project was to utilize an AI model to detect pavement segregation within images captured from cameras. The project involved analyzing over 200 images and implementing image segmentation techniques to accurately classify pavement segregation.
 
 ## Tools and Techniques Used
 
