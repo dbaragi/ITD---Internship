@@ -1,4 +1,4 @@
-# Idaho Transportation Department Internship - Pavement Segregation Project
+# Idaho Transportation Department - Pavement Segregation Project
 
 ## Overview
 
