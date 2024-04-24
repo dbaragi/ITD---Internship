@@ -20,7 +20,7 @@ Due to the limitations encountered with YOLOv8, a shift was made to another mode
 
 ## Dataset and Annotations
 
-The dataset used for training and annotations were prepared using the Computer Vision Annotation Tool (CVAT). CVAT provided an intuitive interface for annotating pavement segregation within images. The annotations generated in CVAT were then utilized for training the YOLOv8 model.
+The dataset used for training and annotations were prepared using the CVAT. The annotations generated in CVAT were then utilized for training the YOLOv8 model.
 
 ## Data Format for YOLOv8
 
