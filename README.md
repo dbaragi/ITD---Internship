@@ -18,16 +18,20 @@ The objective of this project was to utilize an AI model to detect pavement segr
 
 Due to the limitations encountered with YOLOv8, a shift was made to another model, U-Net. U-Net is a convolutional neural network (CNN) architecture commonly used for image segmentation tasks. Its ability to accurately segment images, especially in scenarios with less data (as in our case) or complex backgrounds, made it a suitable choice for our project.
 
+## Dataset and Annotations
+
+The dataset used for training and annotations were prepared using the Computer Vision Annotation Tool (CVAT). CVAT provided an intuitive interface for annotating pavement segregation within images. The annotations generated in CVAT were then utilized for training the YOLOv8 model.
+
 ## Data Format for YOLOv8
 
 The dataset used for YOLOv8 training was prepared in the following format:
 
 - **Image Format:** Images in standard image formats (e.g., JPEG, PNG) were used for training.
-- **Label Format:** Labels were generated using annotations made in CVAT. These labels were then converted to YOLO format, which consists of text files (.txt) containing bounding box coordinates and class labels for each image.
+- **Label Format:** Labels were generated in YOLO format, which consists of text files (.txt) containing bounding box coordinates and class labels for each image.
 
 ## Dataset Availability
 
-The dataset used for YOLOv8 training is available for access via the following link:
+The dataset used for YOLOv8 training and annotations are available for access via the following link:
 
 [Dataset Link](https://drive.google.com/drive/folders/12HBTPv8cKrgFiW_tKMJUGVo7QHuqf7V_?usp=sharing)
 
