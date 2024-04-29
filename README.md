@@ -18,6 +18,11 @@ The objective of this project was to utilize an AI model to detect pavement segr
 
 Due to the limitations encountered with YOLOv8, a shift was made to another model, U-Net. U-Net is a convolutional neural network (CNN) architecture commonly used for image segmentation tasks. Its ability to accurately segment images, especially in scenarios with less data (as in our case) or complex backgrounds, made it a suitable choice for our project.
 
+## Documentation
+
+The documentation for the work done can be found in ITD_doc.docx
+The link for all the python notebooks of training and predictions is: https://drive.google.com/file/d/1rpQgrA996Oo0obOG69Awqtn63JwUagUT/view?usp=share_link
+Updates are still being made as expected results are still not obtained.
 ## Dataset and Annotations
 
 The dataset used for training and annotations were prepared using the CVAT. The annotations generated in CVAT were then utilized for training the YOLOv8 model.
