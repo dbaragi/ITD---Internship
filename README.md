@@ -21,7 +21,7 @@ Due to the limitations encountered with YOLOv8, a shift was made to another mode
 ## Documentation
 
 The documentation for the work done can be found in ITD_doc.docx
-The link for all the python notebooks of training and predictions is: https://drive.google.com/file/d/1rpQgrA996Oo0obOG69Awqtn63JwUagUT/view?usp=share_link
+The link for all the python notebooks of training and predictions is: https://drive.google.com/drive/folders/1uXcHH-RD2LP2B0SdAMY51aoH9JFedjSn?usp=sharing
 Updates are still being made as expected results are still not obtained.
 ## Dataset and Annotations
 
